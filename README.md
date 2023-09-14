@@ -1,6 +1,10 @@
 # LicensePlate_Detection_YOLOV8
-## Install environments
+## Install
 ```
+git clone https://github.com/XuanTung4501/LicensePlate_Detection_YOLOV8.git
+cd LicensePlate_Detection_YOLOV8
+
+# install dependencies
 pip install -r requirements.txt
 ```
 
