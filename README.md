@@ -8,5 +8,5 @@ pip install -r requirements.txt
 ```
 python main.py --video_path=path_to_video
 ```
-**utils.py (Source)**: [Link to the original repository](https://github.com/Marsmallotr/License-Plate-Recognition/blob/main/function/helper.py)https://github.com/Marsmallotr/License-Plate-Recognition/blob/main/function/helper.py)
+**utils.py (Source)**: https://github.com/Marsmallotr/License-Plate-Recognition/blob/main/function/helper.py
 
