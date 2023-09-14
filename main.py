@@ -20,13 +20,12 @@ charNames = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B',
              'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
 classNames = ["license_plate"]
 
-mask = cv2.imread("mask.png")
+
 prev_frame_time = 0
 font = cv2.FONT_HERSHEY_SIMPLEX
 while True:
     success, img = cap.read()
-    imgRegion = cv2.bitwise_and(img, mask)
-    results = model(imgRegion, stream=True)
+    results = model(img, stream=True)
     new_frame_time = time.time()
 
     for r in results:
