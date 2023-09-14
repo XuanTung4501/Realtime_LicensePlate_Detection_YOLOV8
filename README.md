@@ -1,6 +1,6 @@
 # LicensePlate_Detection_YOLOV8
 ## Install
-```
+```bash
 git clone https://github.com/XuanTung4501/LicensePlate_Detection_YOLOV8.git
 cd LicensePlate_Detection_YOLOV8
 
