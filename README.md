@@ -15,4 +15,4 @@ python main.py --video_path=path_to_video
 **utils.py (Source)**: https://github.com/Marsmallotr/License-Plate-Recognition/blob/main/function/helper.py
 
 ## Result
-![Demo](result/lincense_plate.png)
+![Demo](./result/lincense_plate.png)
